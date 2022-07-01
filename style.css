@@ -1,0 +1,187 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: black; 
+ text-align: center;
+ margin-left: 7em;
+ margin-right: 7em;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: white;
+  font-size: 4em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-family: 'Rubik';
+}
+
+.tstB {
+  color: #FDA597;
+  font-size: 3em;
+  font-family: 'Rubik';
+  font-weight: 600;
+}
+
+.homet {
+  color: white;
+  font-size: 2em;
+  font-family: 'Arsenal';
+}
+
+.tst {
+  color: #FDA597;
+  font-size: 1.75em;
+  font-family: 'Arsenal';
+  margin-left: 7.5em;
+  margin-right: 7.5em;
+}
+
+.tst2 {
+  color: #FDA597;
+  font-size: 2em;
+  font-family: 'Arsenal';
+}
+
+/* STYLE IMAGES */
+
+#circle {
+ height: 400px;
+ width: 400px;
+ border-radius: 50%;
+ margin-bottom: 2em;
+ justify-content: center;
+}
+
+ #simple {
+ height: 300px;
+ width: 300px;
+ border-radius: 50%;
+ margin-bottom: 2em;
+ margin-top: 2em;
+}
+
+#vshape {
+ height: 300px;
+ width: 300px;
+ border-radius: 50%;
+ margin-bottom: 2em;
+ margin-top: 2em;
+}
+
+#streak {
+ height: 400px;
+ width: 400px;
+ border-radius: 50%;
+ margin-bottom: 2em;
+}
+
+#trig {
+ height: 400px;
+ width: 400px;
+ border-radius: 50%;
+ margin-bottom: 2em;
+}
+
+/* STYLE NAV BAR */
+.navbar {
+  float: center;
+  background-color: black; 
+  font-family: 'Rubik';
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 2em;
+}
+
+.navbar a {
+  font-size: 16px;
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+}
+
+.subnav {
+  float: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 1em;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #333;
+}
+
+.subnav-content {
+  display: none;
+  float: center;
+  background-color: black;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: center;
+  color: white;
+  width: 100%;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+/* STYLE BUTTONS */
+
+/* More */
+
+.link {
+  color: #ededed;
+}
+
+#fc {
+  display: flex;
+  flex-direction: column;
+  flex-wrap:nowrap;
+}
+
+@media screen and (max-width: 850px){
+  #fc {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+#fcS {
+  display: flex;
+  flex-direction: column;
+  flex-wrap:nowrap;
+}
+
+@media screen and (max-width: 850px){
+  #fcS {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
